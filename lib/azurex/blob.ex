@@ -137,7 +137,6 @@ defmodule Azurex.Blob do
     end
   end
 
-  @spec get_url(any, atom) :: nonempty_binary
   @doc """
   Returns the url for a container (defaults to the one in `Azurex.Blob.Config`)
   """
